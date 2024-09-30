@@ -1,0 +1,426 @@
+[
+    {
+        "id": 1, 
+      "college_name": "Indian Institute of Technology Bombay",
+      "feature": "Times of India",
+      "rank": 1,
+      "placement": {
+        "average_package": "1500000",
+        "highest_package": "15000000"
+      },
+      "number_of_reviews": 1000,
+      "rating": 9.8,
+      "course_fee": "200000",
+      "logo": "https://www.iitb.ac.in/images/IITB_logo.png",
+      "best": "best in infrastructure",
+      "featured": "Featured"
+    },
+    {"id": 2, 
+      "college_name": "Indian Institute of Technology Delhi",
+      "feature": "The Hindu",
+      "rank": 2,
+      "placement": {
+        "average_package": "1400000",
+        "highest_package": "12000000"
+      },
+      "number_of_reviews": 900,
+      "rating": 9.7,
+      "course_fee": "180000",
+      "logo": "https://www.iitd.ac.in/images/iitd_logo.png",
+      "best": "best in sports"
+    },
+    {"id": 3, 
+      "college_name": "Birla Institute of Technology and Science, Pilani",
+      "feature": "India Today",
+      "rank": 3,
+      "placement": {
+        "average_package": "1300000",
+        "highest_package": "11000000"
+      },
+      "number_of_reviews": 850,
+      "rating": 9.5,
+      "course_fee": "150000",
+      "logo": "https://www.bits-pilani.ac.in/images/BITS_Pilani_Logo.png",
+      "best": "best in infrastructure"
+    },
+    {"id": 4, 
+      "college_name": "National Institute of Technology, Trichy",
+      "feature": "Hindustan Times",
+      "rank": 4,
+      "placement": {
+        "average_package": "1200000",
+        "highest_package": "9500000"
+      },
+      "number_of_reviews": 780,
+      "rating": 9.4,
+      "course_fee": "120000",
+      "logo": "https://www.nitt.edu/home/images/nitt_logo.png",
+      "best": "best in infrastructure"
+    },
+    {"id": 5, 
+      "college_name": "Vellore Institute of Technology",
+      "feature": "NDTV",
+      "rank": 5,
+      "placement": {
+        "average_package": "1000000",
+        "highest_package": "9000000"
+      },
+      "number_of_reviews": 720,
+      "rating": 9.0,
+      "course_fee": "100000",
+      "logo": "https://vit.ac.in/images/vit_logo.png",
+      "best": "best in infrastructure"
+    },
+    {"id": 6, 
+      "college_name": "Indian Institute of Management, Ahmedabad",
+      "feature": "Forbes India",
+      "rank": 6,
+      "placement": {
+        "average_package": "2500000",
+        "highest_package": "20000000"
+      },
+      "number_of_reviews": 1100,
+      "rating": 9.9,
+      "course_fee": "250000",
+      "logo": "https://www.iima.ac.in/images/iima_logo.png",
+      "best": "best in infrastructure"
+    },
+    {"id": 7, 
+      "college_name": "Indian Institute of Technology Kharagpur",
+      "feature": "Economic Times",
+      "rank": 7,
+      "placement": {
+        "average_package": "1450000",
+        "highest_package": "13000000"
+      },
+      "number_of_reviews": 850,
+      "rating": 9.6,
+      "course_fee": "190000",
+      "logo": "https://www.iitkgp.ac.in/images/iitkgp_logo.png",
+      "best": "best in infrastructure"
+    },
+    {"id": 8, 
+      "college_name": "Delhi Technological University",
+      "feature": "Times Now",
+      "rank": 8,
+      "placement": {
+        "average_package": "1100000",
+        "highest_package": "7500000"
+      },
+      "number_of_reviews": 600,
+      "rating": 9.2,
+      "course_fee": "95000",
+      "logo": "https://www.dtu.ac.in/images/dtu_logo.png",
+      "best": "best in infrastructure"
+    },
+    {"id": 9, 
+      "college_name": "SRM Institute of Science and Technology",
+      "feature": "The Telegraph",
+      "rank": 9,
+      "placement": {
+        "average_package": "900000",
+        "highest_package": "6000000"
+      },
+      "number_of_reviews": 800,
+      "rating": 9.1,
+      "course_fee": "90000",
+      "logo": "https://www.srmuniv.ac.in/images/srm_logo.png",
+      "best": "best in infrastructure"
+    },
+    {"id": 10, 
+      "college_name": "Manipal Institute of Technology",
+      "feature": "Business Standard",
+      "rank": 10,
+      "placement": {
+        "average_package": "800000",
+        "highest_package": "5500000"
+      },
+      "number_of_reviews": 750,
+      "rating": 8.9,
+      "course_fee": "85000",
+      "logo": "https://manipal.edu/content/dam/manipal/images/MIT_Logo.png",
+      "best": "best in sports"
+    },
+    {"id": 11, 
+      "college_name": "Christ University, Bangalore",
+      "feature": "The Indian Express",
+      "rank": 11,
+      "placement": {
+        "average_package": "700000",
+        "highest_package": "5000000"
+      },
+      "number_of_reviews": 700,
+      "rating": 8.7,
+      "course_fee": "80000",
+      "logo": "https://christuniversity.in/assets/images/christuniversity_logo.png",
+      "best": "best in sports"
+    },
+    {"id": 12, 
+      "college_name": "Amity University, Noida",
+      "feature": "Business Today",
+      "rank": 12,
+      "placement": {
+        "average_package": "650000",
+        "highest_package": "4500000"
+      },
+      "number_of_reviews": 600,
+      "rating": 8.5,
+      "course_fee": "75000",
+      "logo": "https://www.amity.edu/logo.png",
+      "best": "best in sports"
+    },
+    {"id": 13, 
+      "college_name": "Indian Institute of Technology Roorkee",
+      "feature": "Outlook India",
+      "rank": 13,
+      "placement": {
+        "average_package": "1400000",
+        "highest_package": "12000000"
+      },
+      "number_of_reviews": 800,
+      "rating": 9.5,
+      "course_fee": "180000",
+      "logo": "https://www.iitr.ac.in/images/iitr_logo.png",
+      "best": "best in sports"
+    },
+    {"id": 14, 
+      "college_name": "University of Delhi",
+      "feature": "Hindustan Times",
+      "rank": 14,
+      "placement": {
+        "average_package": "600000",
+        "highest_package": "4000000"
+      },
+      "number_of_reviews": 850,
+      "rating": 8.8,
+      "course_fee": "60000",
+      "logo": "https://www.du.ac.in/images/du_logo.png",
+      "best": "best in sports"
+    },
+    {"id": 15, 
+      "college_name": "Jamia Millia Islamia",
+      "feature": "NDTV",
+      "rank": 15,
+      "placement": {
+        "average_package": "700000",
+        "highest_package": "5000000"
+      },
+      "number_of_reviews": 900,
+      "rating": 8.9,
+      "course_fee": "70000",
+      "logo": "https://www.jmi.ac.in/images/jamia_logo.png",
+      "best": "best in sports"
+    },
+    {"id": 16, 
+      "college_name": "Indian Institute of Technology Guwahati",
+      "feature": "India Today",
+      "rank": 16,
+      "placement": {
+        "average_package": "1300000",
+        "highest_package": "11000000"
+      },
+      "number_of_reviews": 780,
+      "rating": 9.4,
+      "course_fee": "160000",
+      "logo": "https://www.iitg.ac.in/images/iitg_logo.png","best": "best in sports"
+    },
+    {"id": 17, 
+      "college_name": "Anna University, Chennai",
+      "feature": "Economic Times",
+      "rank": 17,
+      "placement": {
+        "average_package": "800000",
+        "highest_package": "6000000"
+      },
+      "number_of_reviews": 740,
+      "rating": 8.9,
+      "course_fee": "85000",
+      "logo": "https://www.annauniv.edu/images/anna_university_logo.png",
+      "best": "best in sports"
+    },
+    {"id": 18, 
+      "college_name": "Symbiosis Institute of Technology, Pune",
+      "feature": "Forbes India",
+      "rank": 18,
+      "placement": {
+        "average_package": "750000",
+        "highest_package": "5000000"
+      },
+      "number_of_reviews": 670,
+      "rating": 8.7,
+      "course_fee": "75000",
+      "logo": "https://www.sitpune.edu.in/images/symbiosis_logo.png",
+      "best": "best in sports"
+    },
+    {"id": 19, 
+      "college_name": "Indian Institute of Technology Kanpur",
+      "feature": "The Hindu",
+      "rank": 19,
+      "placement": {
+        "average_package": "1500000",
+        "highest_package": "15000000"
+      },
+      "number_of_reviews": 950,
+      "rating": 9.7,
+      "course_fee": "200000",
+      "logo": "https://www.iitk.ac.in/images/iitk_logo.png",
+      "best": "best in sports"
+    },
+    {"id": 20, 
+      "college_name": "Thapar Institute of Engineering and Technology",
+      "feature": "The Indian Express",
+      "rank": 20,
+      "placement": {
+        "average_package": "950000",
+        "highest_package": "6500000"
+      },
+      "number_of_reviews": 600,
+      "rating": 8.6,
+      "course_fee": "80000",
+      "logo": "https://www.thapar.edu/images/thapar_logo.png",
+      "best": "best in sports",
+      "featured": "Featured"
+    },
+    {"id": 21, 
+      "college_name": "Indian School of Business, Hyderabad",
+      "feature": "Business Today",
+      "rank": 21,
+      "placement": {
+        "average_package": "2000000",
+        "highest_package": "18000000"
+      },
+      "number_of_reviews": 1200,
+      "rating": 9.8,
+      "course_fee": "300000",
+      "logo": "https://www.isb.edu/images/isb_logo.png",
+      "best": "best in sports"
+    },
+    {"id": 22, 
+      "college_name": "Jaypee Institute of Information Technology",
+      "feature": "Times Now",
+      "rank": 22,
+      "placement": {
+        "average_package": "680000",
+        "highest_package": "4000000"
+      },
+      "number_of_reviews": 650,
+      "rating": 8.3,
+      "course_fee": "78000",
+      "logo": "https://www.jiit.ac.in/images/jiit_logo.png",
+      "best": "best in sports"
+    },
+    {"id": 23, 
+      "college_name": "Sardar Vallabhbhai National Institute of Technology, Surat",
+      "feature": "Business Standard",
+      "rank": 23,
+      "placement": {
+        "average_package": "1000000",
+        "highest_package": "8000000"
+      },
+      "number_of_reviews": 780,
+      "rating": 9.0,
+      "course_fee": "95000",
+      "logo": "https://www.svnit.ac.in/images/svnit_logo.png",
+      "best": "best in sports"
+    },
+    {"id": 24, 
+      "college_name": "Maharaja Sayajirao University of Baroda",
+      "feature": "The Hindu",
+      "rank": 24,
+      "placement": {
+        "average_package": "550000",
+        "highest_package": "3500000"
+      },
+      "number_of_reviews": 500,
+      "rating": 8.2,
+      "course_fee": "50000",
+      "logo": "https://msubaroda.ac.in/images/msu_logo.png",
+      "best": "best in sports",
+      "featured": "Featured"
+    },
+    {"id": 25, 
+      "college_name": "Indian Institute of Information Technology, Allahabad",
+      "feature": "Economic Times",
+      "rank": 25,
+      "placement": {
+        "average_package": "1200000",
+        "highest_package": "10000000"
+      },
+      "number_of_reviews": 850,
+      "rating": 9.3,
+      "course_fee": "160000",
+      "logo": "https://www.iiita.ac.in/images/iiita_logo.png",
+      "best": "best in sports"
+    },
+    {"id": 26, 
+      "college_name": "PES University, Bangalore",
+      "feature": "NDTV",
+      "rank": 26,
+      "placement": {
+        "average_package": "820000",
+        "highest_package": "5500000"
+      },
+      "number_of_reviews": 720,
+      "rating": 8.8,
+      "course_fee": "88000",
+      "logo": "https://pes.edu/images/pes_logo.png",
+      "best": "best in sports"
+    },
+    {"id": 27, 
+      "college_name": "Xavier School of Management, Jamshedpur",
+      "feature": "Forbes India",
+      "rank": 27,
+      "placement": {
+        "average_package": "2200000",
+        "highest_package": "17000000"
+      },
+      "number_of_reviews": 1100,
+      "rating": 9.9,
+      "course_fee": "270000",
+      "logo": "https://www.xlri.ac.in/images/xlri_logo.png",
+      "best": "best in sports"
+    },
+    {"id": 28, 
+      "college_name": "Jadavpur University, Kolkata",
+      "feature": "The Indian Express",
+      "rank": 28,
+      "placement": {
+        "average_package": "750000",
+        "highest_package": "5500000"
+      },
+      "number_of_reviews": 780,
+      "rating": 8.9,
+      "course_fee": "78000",
+      "logo": "https://www.jaduniv.edu.in/images/jadavpur_logo.png",
+      "best": "best in sports"
+    },
+    {"id": 29, 
+      "college_name": "Institute of Chemical Technology, Mumbai",
+      "feature": "The Telegraph",
+      "rank": 29,
+      "placement": {
+        "average_package": "680000",
+        "highest_package": "4500000"
+      },
+      "number_of_reviews": 600,
+      "rating": 8.6,
+      "course_fee": "65000",
+      "logo": "https://www.ictmumbai.edu.in/images/ict_logo.png",
+      "best": "best in sports"
+    },
+    {"id": 30, 
+      "college_name": "Nirma University, Ahmedabad",
+      "feature": "Outlook India",
+      "rank": 30,
+      "placement": {
+        "average_package": "900000",
+        "highest_package": "7000000"
+      },
+      "number_of_reviews": 750,
+      "rating": 9.1,
+      "course_fee": "95000",
+      "logo": "https://nirmauni.ac.in/images/nirma_logo.png",
+      "best": "best in sports"
+    }
+  ]
+  

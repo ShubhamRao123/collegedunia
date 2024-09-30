@@ -1,0 +1,49 @@
+body, html {
+    margin: 0; /* Remove default margin from body and html */
+    height: 100%; /* Ensure body and html take full height */
+}
+
+.table-container {
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    padding: 0; /* Remove padding to fit content */
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+}
+
+h2 {
+    text-align: center;
+    margin: 10px 0; /* Adjust margin for spacing */
+}
+
+.table-scroll {
+    flex-grow: 1; /* Allow the scrollable area to grow and take available space */
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.college-table {
+    width: 100%; /* Full width of the parent */
+    border-collapse: collapse;
+    margin: 0; /* Remove margin to fit within the container */
+}
+
+.college-table th,
+.college-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.college-table th {
+    background-color: #f4f4f4;
+}
+
+.college-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.college-table tr:hover {
+    background-color: #e1f5fe;
+}
