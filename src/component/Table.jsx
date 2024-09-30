@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import collegeData from "../data/data.json"; // Adjust the path if needed
+import collegeData from "../data/data.json";
 import {
   FaStar,
   FaSearch,
@@ -7,7 +7,7 @@ import {
   FaArrowRight,
   FaSquare,
   FaArrowsAltH,
-  FaTicketAlt, // Import the double-sided arrow icon
+  FaTicketAlt,
 } from "react-icons/fa";
 
 function Table() {
@@ -49,7 +49,7 @@ function Table() {
     } else if (sortCriteria === "reviews") {
       comparison = a.number_of_reviews - b.number_of_reviews;
     } else if (sortCriteria === "ranking") {
-      comparison = a.rank - b.rank; // Sorting by rank (ranking in India)
+      comparison = a.rank - b.rank;
     }
 
     return sortOrder === "asc" ? comparison : -comparison;
@@ -63,7 +63,7 @@ function Table() {
       {/* Title, Search Bar, and Sort Options in the same line */}
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-2xl font-bold">Collegedunia</h2>
-        {/* Search Bar centered */}
+
         <div className="flex-grow flex justify-center mx-4">
           <div className="relative w-1/2">
             <input
@@ -88,7 +88,6 @@ function Table() {
             <option value="fees">Fees</option>
             <option value="reviews">User Review Rating</option>
             <option value="ranking">Ranking in India</option>{" "}
-            {/* New option for ranking */}
           </select>
           <select
             className="border rounded-lg p-2 ml-2"
@@ -126,30 +125,24 @@ function Table() {
             >
               <td className="py-2 text-center">{college.rank}</td>
               <td className="py-2 pl-20 flex flex-col items-start">
-                {/* Featured label */}
                 {college.featured && (
                   <span className="mb-2 px-2 py-1 bg-red-800 text-white text-xs font-bold rounded-lg">
                     {college.featured}
                   </span>
                 )}
 
-                {/* College Logo and Name */}
                 <div className="flex items-center">
                   <img src={college.logo} width="20" height="20" />
                   <span className="ml-2">{college.college_name}</span>
                 </div>
 
-                {/* Buttons */}
                 <div className="flex mt-10 space-x-4 text-sm gap-8">
-                  {/* Apply Now */}
                   <button className="flex items-center text-yellow-600 font-bold">
                     <FaArrowRight className="mr-1" /> Apply Now
                   </button>
-                  {/* Download Brochure */}
                   <button className="flex items-center text-green-500 font-bold">
                     <FaFileDownload className="mr-1" /> Download Brochure
                   </button>
-                  {/* Add to Compare */}
                   <button className="flex items-center text-black">
                     <FaSquare className="mr-1" /> Add to Compare
                   </button>
@@ -165,7 +158,6 @@ function Table() {
                 <br />
                 <span className="text-black text-sm">- 1 Year Fees</span>
                 <br />
-                {/* Double-sided arrow for fee comparison */}
                 <span className="text-gold text-xs flex items-center text-yellow-600 font-bold">
                   <FaArrowsAltH className="mr-1 text-yellow-500" />
                   Compare Fees
@@ -203,15 +195,13 @@ function Table() {
               </td>
               <td className="py-2 text-center flex flex-col items-center">
                 <span>#{college.rank}/100 in India</span>
-                {/* India Today logo with year below Ranking */}
                 <div className="flex flex-row items-center mt-2">
                   <img
-                    src="../image/india.jpg" // Adjust the path to your logo
+                    src="../image/india.jpg"
                     alt="India Today"
                     className="w-12 font-semibold"
                   />
                   <span className="text-sm ml-2">2023</span>{" "}
-                  {/* Added margin left for spacing */}
                 </div>
               </td>
             </tr>
